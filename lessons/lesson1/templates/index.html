@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <p>
+        {% if name %}
+        hello my name is {{ name }}
+        {% endif %}
+    </p>
+    <p>
+        {% if positive > 0 %}
+        your number = {{ positive }}
+        {% endif %}
+    </p>
+
+{% endblock %}
