@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+    <tr>
+        <th>first</th>
+        <th>last</th>
+        <th>age</th>
+        <th>average</th>
+    </tr><br> 
+
+    {% for student in students %}
+        <tr>
+            <td>{{ student["f_name"] }}</td>
+            <td>{{ student["l_name"] }}</td>
+            <td>{{ student["age"] }}</td>
+            <td>{{ student["average"] }}</td>
+        </tr> <br>
+
+    {% endfor %}
+{% endblock %}

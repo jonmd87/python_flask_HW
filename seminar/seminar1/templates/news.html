@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for art in articles %}
+        <tr>
+            <h3>{{art["header"]}}</h3>
+            <p><b>{{art["date"]}}</b></p> <br>
+            <p>{{art["body"]}}</p>
+        </tr>
+        <br>
+    {% endfor %}
+{% endblock %}
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi temporibus omnis necessitatibus suscipit deserunt laborum.
