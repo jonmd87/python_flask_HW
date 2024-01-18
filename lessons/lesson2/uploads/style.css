@@ -1,0 +1,14 @@
+h2 {
+    color: green;
+}
+
+.background {
+    background-color: aquamarine;
+    background-position-x: right ;
+}
+
+.border {
+    border-style: solid;
+    border-color: brown;
+    border-width: 1px; 
+}

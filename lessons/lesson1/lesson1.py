@@ -12,7 +12,6 @@ def hello_world(name="unknown"):
 
 @app.route("/file/<path:file>/")
 def set_path(file):
-    print(type(file))
     return f"file path {file}"
 
 
